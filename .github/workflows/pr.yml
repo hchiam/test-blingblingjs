@@ -1,5 +1,5 @@
-name: Run Tests on PR
-on: pull_request
+name: Run Tests on PR # I only made this different in this yml file
+on: pull_request # I only made this different in this yml file
 jobs:
   build:
     runs-on: ubuntu-latest
